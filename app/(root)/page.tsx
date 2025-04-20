@@ -25,9 +25,9 @@ async function Home() {
     <>
       <section className="card-cta">
         <div className="flex flex-col gap-6 max-w-lg">
-          <h2>Get Interview-Ready with AI-Powered Practice & Feedback</h2>
+          <h2>Ace Your Next Interview with AI-Driven Practice & Insights</h2>
           <p className="text-lg">
-            Practice real interview questions & get instant feedback
+          Tackle Real Questions. Get Real-Time AI Feedback.
           </p>
 
           <Button asChild className="btn-primary max-sm:w-full">
@@ -86,6 +86,11 @@ async function Home() {
             <p>There are no interviews available</p>
           )}
         </div>
+        <footer>
+          <p className="text-center text-sm text-gray-500">
+            &copy; {new Date().getFullYear()} Zenvia..Made With ❤️ by Govind
+          </p>
+        </footer>
       </section>
     </>
   );

@@ -147,15 +147,15 @@ const Agent = ({
 
   return (
     <>
-      <div className="call-view">
+      <div className="call-view ">
         {/* AI Interviewer Card */}
         <div className="card-interviewer">
           <div className="avatar">
             <Image
-              src="/ai-avatar.png"
+              src="/robot.png"
               alt="profile-image"
-              width={65}
-              height={54}
+              width={200}
+              height={200}
               className="object-cover"
             />
             {isSpeaking && <span className="animate-speak" />}
@@ -167,11 +167,11 @@ const Agent = ({
         <div className="card-border">
           <div className="card-content">
             <Image
-              src="/user-avatar.png"
+              src="/avatar.png"
               alt="profile-image"
-              width={539}
-              height={539}
-              className="rounded-full object-cover size-[120px]"
+              width={200}
+              height={200}
+              className="rounded-full object-cover size-[90px]"
             />
             <h3>{userName}</h3>
           </div>
